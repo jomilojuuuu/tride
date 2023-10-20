@@ -1,17 +1,12 @@
-// function App() {
-//   return (
-
-//   );
-// }
-
-// export default App;
-
 import React from "react";
+import Header from "./Components/Header";
 
 function App() {
   return (
-    <div className="App">
-      <h1 className="text-3xl font-bold underline">i love oyin</h1>
+    <div>
+      <div className=" bg-slate-950 h-full">
+        <Header />
+      </div>
     </div>
   );
 }
