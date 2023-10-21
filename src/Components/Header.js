@@ -3,7 +3,7 @@ import logo from "../assets/Logo_white.svg";
 
 function Header() {
   return (
-    <div className="py-6 flex bg-slate-950 h-24 justify-between  max-w-7xl mx-auto xl:items-center">
+    <div className="py-6 flex bg-stone-800 h-24 justify-between  max-w-7xl mx-auto xl:items-center">
       <img src={logo} alt="Logo" className="w-32 ml-32" />
 
       <div className="flex mr-32">

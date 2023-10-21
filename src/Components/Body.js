@@ -2,6 +2,7 @@ import React from "react";
 import ss from "../assets/screen-shot.png";
 import gtb from "../assets/gtb.png";
 import ndic from "../assets/ndic.png";
+import Info from "./Info";
 
 function Body() {
   return (
@@ -42,6 +43,8 @@ function Body() {
           <img src={ss} alt="ss" className="w-full  h-full object-cover" />
         </div>
       </div>
+
+      <Info />
     </div>
   );
 }
