@@ -9,7 +9,7 @@ function Body() {
     <div>
       <div className="flex">
         <div className="ml-32 mt-32">
-          <h2 className="text-white text-4xl font-semibold">
+          <h2 className="text-white text-4xl font-atyp_display">
             Banking made easy for non-profit organizations.
           </h2>
           <p className="text-white my-8 text-lg">
@@ -22,7 +22,7 @@ function Body() {
               Open an account
             </button>
 
-            <button className="ml-5 px-4 py-3 bg-purple-600 rounded-[4px] text-white">
+            <button className="ml-5 px-4 py-3 bg-custom-purple rounded-[4px] text-white">
               Book a meeting with the team
             </button>
           </div>
@@ -39,8 +39,8 @@ function Body() {
           </div>
         </div>
 
-        <div className="relative">
-          <img src={ss} alt="ss" className="w-full  h-full object-cover" />
+        <div className="overflow">
+          <img src={ss} alt="ss" className="" />
         </div>
       </div>
 

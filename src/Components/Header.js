@@ -3,12 +3,12 @@ import logo from "../assets/Logo_white.svg";
 
 function Header() {
   return (
-    <div className="py-6 flex bg-stone-800 h-24 justify-between  max-w-7xl mx-auto xl:items-center">
-      <img src={logo} alt="Logo" className="w-32 ml-32" />
+    <div className="py-6 flex bg-custom-black h-24 justify-between  max-w-7xl mx-auto xl:items-center">
+      <img src={logo} alt="Logo" className="w-[122px] ml-24" />
 
-      <div className="flex mr-32">
+      <div className="flex mr-[97px]">
         <div>
-          <button className="px-4 py-3 text-white ">Login</button>
+          <button className="px-6 py-3 text-white ">Login</button>
         </div>
 
         <div>

@@ -4,14 +4,14 @@ import transaction from "../assets/transaction pic.png";
 
 function Info() {
   return (
-    <div className="flex">
-      <div className="ml-20  bg-neutral-700 px-14 py-10 rounded-xl w-[40rem]">
+    <div className="flex mt-16">
+      <div className="ml-20 bg-custom-gray px-14 py-10 rounded-xl w-[40rem]">
         <div>
-          <img src={church} alt="img" className="pb-10" />
+          <img src={church} alt="img" className=" transform scale-95" />
         </div>
 
         <div>
-          <h2 className="text-white py-5 text-2xl  ">
+          <h2 className="text-white py-5 text-2xl font-bold  ">
             Get separate account numbers for offerings, donations, and projects.
           </h2>
 
@@ -24,20 +24,20 @@ function Info() {
 
           <a
             href="https://www.example.com"
-            className="text-purple-500 font-semibold "
+            className="text-[#7C56F6] font-bold hover:text-white"
           >
             Get started
           </a>
         </div>
       </div>
 
-      <div className="mr-20 ml-6 bg-neutral-700 px-14 py-10 rounded-xl w-[40rem] ">
+      <div className="mr-20 ml-6 bg-custom-gray px-14 py-10 rounded-xl w-[40rem] ">
         <div>
-          <img src={transaction} alt="img" className="pb-10" />
+          <img src={transaction} alt="img" className=" transform scale-95" />
         </div>
 
         <div>
-          <h2 className="text-white py-5 text-3xl  ">
+          <h2 className="text-white py-5 text-2xl font-bold  ">
             Keep accurate record of money spent
           </h2>
 
@@ -50,7 +50,7 @@ function Info() {
 
           <a
             href="https://www.example.com"
-            className="text-purple-500 font-semibold "
+            className="text-[#7C56F6] font-semibold "
           >
             Get started
           </a>

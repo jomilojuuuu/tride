@@ -1,3 +1,9 @@
+@font-face {
+    font-family: "atyp_display";
+    src: url(/public/fonts/AtypText-Medium.ttf),
+        url(/public/fonts/AtypDisplay-Regular.ttf),
+        url(/public/fonts/AtypDisplay-Semibold.ttf),
+}
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

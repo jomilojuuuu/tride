@@ -5,7 +5,7 @@ import Body from "./Components/Body";
 function App() {
   return (
     <div>
-      <div className=" bg-stone-800 h-full">
+      <div className=" bg-custom-black font-atyp_display">
         <Header />
         <Body />
       </div>
