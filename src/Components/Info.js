@@ -5,13 +5,13 @@ import transaction from "../assets/transaction pic.png";
 function Info() {
   return (
     <div className="flex mt-16">
-      <div className="ml-20 bg-custom-gray px-14 py-10 rounded-xl w-[40rem]">
+      <div className="ml-[118px] bg-custom-gray px-14 py-10 rounded-xl w-[40rem]">
         <div>
           <img src={church} alt="img" className=" transform scale-95" />
         </div>
 
         <div>
-          <h2 className="text-white py-5 text-2xl font-bold  ">
+          <h2 className="text-white py-5 text-2xl font-semibold font-atyp_display_Regular  ">
             Get separate account numbers for offerings, donations, and projects.
           </h2>
 
@@ -31,7 +31,7 @@ function Info() {
         </div>
       </div>
 
-      <div className="mr-20 ml-6 bg-custom-gray px-14 py-10 rounded-xl w-[40rem] ">
+      <div className="mr-[118px] ml-6 bg-custom-gray px-14 py-10 rounded-xl w-[40rem] ">
         <div>
           <img src={transaction} alt="img" className=" transform scale-95" />
         </div>
@@ -50,7 +50,7 @@ function Info() {
 
           <a
             href="https://www.example.com"
-            className="text-[#7C56F6] font-semibold "
+            className="text-[#7C56F6] font-bold hover:text-white"
           >
             Get started
           </a>

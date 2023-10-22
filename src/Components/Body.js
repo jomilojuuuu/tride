@@ -3,16 +3,17 @@ import ss from "../assets/screen-shot.png";
 import gtb from "../assets/gtb.png";
 import ndic from "../assets/ndic.png";
 import Info from "./Info";
+import Funds from "./Funds";
 
 function Body() {
   return (
     <div>
-      <div className="flex">
+      <div className="flex flex-rol relative">
         <div className="ml-32 mt-32">
-          <h2 className="text-white text-4xl font-atyp_display">
+          <h1 className="text-white text-[39px] leading-[45px]">
             Banking made easy for non-profit organizations.
-          </h2>
-          <p className="text-white my-8 text-lg">
+          </h1>
+          <p className="text-white my-5 text-[13px] leading-6">
             Tride helps you receive funds faster from your members and donors
             with dedicated bank accounts and online payment options.
           </p>
@@ -39,12 +40,13 @@ function Body() {
           </div>
         </div>
 
-        <div className="overflow">
-          <img src={ss} alt="ss" className="" />
+        <div className="">
+          <img src={ss} alt="ss" className=" " />
         </div>
       </div>
 
       <Info />
+      <Funds />
     </div>
   );
 }

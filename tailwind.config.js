@@ -4,7 +4,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        atyp_display: ["atyp_display"],
+        atyp_display_Regular: ["atyp_display_regular"],
+        atyp_display_Medium: ["atyp_display_medium"],
       },
       colors: {
         "custom-black": "#1D1D1B",

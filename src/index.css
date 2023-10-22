@@ -1,8 +1,12 @@
 @font-face {
-    font-family: "atyp_display";
+    font-family: "atyp_display_medium";
     src: url(/public/fonts/AtypText-Medium.ttf),
-        url(/public/fonts/AtypDisplay-Regular.ttf),
         url(/public/fonts/AtypDisplay-Semibold.ttf),
+}
+
+@font-face {
+    font-family: "atyp_display_regular";
+    src: url(/public/fonts/AtypDisplay-Regular.ttf)
 }
 @tailwind base;
 @tailwind components;
