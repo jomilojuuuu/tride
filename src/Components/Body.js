@@ -7,9 +7,9 @@ import Funds from "./Funds";
 
 function Body() {
   return (
-    <div>
-      <div className="flex flex-rol relative">
-        <div className="ml-32 mt-32">
+    <div className="mb-20">
+      <div className="flex">
+        <div className="ml-32 mt-32 w-[40%]">
           <h1 className="text-white text-[39px] leading-[45px]">
             Banking made easy for non-profit organizations.
           </h1>
@@ -40,8 +40,12 @@ function Body() {
           </div>
         </div>
 
-        <div className="">
-          <img src={ss} alt="ss" className=" " />
+        <div className="w-[50%] overflow overflow-hidden">
+          <img
+            src={ss}
+            alt="ss"
+            className="transform scale-150 relative left-[100px] bottom-[30px]"
+          />
         </div>
       </div>
 

@@ -15,7 +15,7 @@ function Info() {
             Get separate account numbers for offerings, donations, and projects.
           </h2>
 
-          <h3 className="text-gray-300 mb-11 text-lg">
+          <h3 className="text-gray-300  mb-5">
             Avoid the hassle of visiting the bank solely for setting up a single
             program or project account. Our platform allows you to efficiently
             create multiple bank accounts with just one click, providing you
@@ -24,7 +24,7 @@ function Info() {
 
           <a
             href="https://www.example.com"
-            className="text-[#7C56F6] font-bold hover:text-white"
+            className="text-[#7C56F6] font-bold hover:text-white mt-20"
           >
             Get started
           </a>
@@ -36,8 +36,8 @@ function Info() {
           <img src={transaction} alt="img" className=" transform scale-95" />
         </div>
 
-        <div>
-          <h2 className="text-white py-5 text-2xl font-bold  ">
+        <div className="mt-10">
+          <h2 className="text-white py-5 text-2xl font-semibold font-atyp_display_Regular  ">
             Keep accurate record of money spent
           </h2>
 
@@ -50,7 +50,7 @@ function Info() {
 
           <a
             href="https://www.example.com"
-            className="text-[#7C56F6] font-bold hover:text-white"
+            className="text-[#7C56F6] font-bold hover:text-white mt-20"
           >
             Get started
           </a>

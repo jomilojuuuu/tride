@@ -26,7 +26,7 @@ function Funds() {
       </div>
 
       <div className="">
-        <img src={fund} alt="Logo" className="w-[700px] relative left-10 " />
+        <img src={fund} alt="Logo" className="w-[700px] relative left-10" />
       </div>
     </div>
   );
